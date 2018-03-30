@@ -25,7 +25,7 @@ namespace vlc.net
             player.SetRenderWindow((int)panel1.Handle);
 
             // play rtmp stream
-            player.PlayOnline(@"rtmp://192.168.1.2/live/123456");
+            player.PlayOnline(@"rtmp://192.168.3.245:1935/live/7c02c0bc889c43bf84a8c80f854543e6?sid=973a23d1627146a08c3fd2ff47e25287");
             player.Play();
         }
 
